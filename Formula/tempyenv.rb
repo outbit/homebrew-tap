@@ -3,11 +3,11 @@ class Tempyenv < Formula
 
   desc "Easy and quick way to create a temporary Python virtual environment"
   homepage "https://github.com/outbit/tempyenv"
-  url "https://files.pythonhosted.org/packages/01/f1/af576a2e40cd0b959a379c52013e56ded2a9d3b883b20e466b609da81de5/tempyenv-1.0.7.tar.gz"
-  sha256 "98cd768570def14a1f14e5a678cb0971c068ca228b15a176ee603cee62661848"
+  url "https://files.pythonhosted.org/packages/40/31/fc44d4daaf53973a22032a77ab5905fa829320442a7eb14d638e166dfdeb/tempyenv-1.0.8.tar.gz"
+  sha256 "9cd6a00ad9375de8ccdffa48d647ef7927ccd2939b58aebffaab4edcb112bdab"
   license "MIT"
 
-  depends_on "python@3.12"
+  depends_on "python@3.14"
 
   def install
     virtualenv_install_with_resources
